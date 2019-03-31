@@ -10,12 +10,13 @@ class Time
   public:
     int d;
     void day1();
+    //svhbdhnfms
     void day2();
     void day3();
     void day4();
     void day5();
   };
-    
+
     void Time::day1()
     {
       if(f>=21600 && f< 31800)
@@ -27,7 +28,7 @@ class Time
           d=31800-f;
           cout.flush();
           sleep(d);
-          f=f+d; 
+          f=f+d;
         }
       if(f>=31800 && f<35400)
          {
@@ -41,7 +42,7 @@ class Time
            cout.flush();
            sleep(d);
            f=f+d;
-        }   
+        }
       if(f>=35400 && f<39000)
         {
            system("clear");
@@ -54,7 +55,7 @@ class Time
            cout.flush();
            sleep(d);
            f=f+d;
-        
+
         }
       if(f>=39000 && f<46200)
         {
@@ -71,7 +72,7 @@ class Time
            sleep(d);
            f=f+d;
         }
-      
+
       if(f>=46200 && f<52200)
         {
            system("clear");
@@ -97,7 +98,7 @@ class Time
            cout.flush();
            sleep(d);
            f=d+f;
-        }        
+        }
       if(f>=55500 && f<59100)
         {
             system("clear");
@@ -109,8 +110,8 @@ class Time
            d=59100-f;
            cout.flush();
            sleep(d);
-                  
-        }  
+
+        }
       else
         {
            system("clear");
@@ -118,10 +119,10 @@ class Time
         }
 
     }
-    
-    
+
+
     void Time::day2()
-    {  
+    {
      if(f>=21600 && f< 31800)
         {
           system("clear");
@@ -131,7 +132,7 @@ class Time
           d=31800-f;
           cout.flush();
           sleep(d);
-          f=f+d; 
+          f=f+d;
         }
      if(f>=31800 && f<35400)
          {
@@ -145,7 +146,7 @@ class Time
            cout.flush();
            sleep(d);
            f=d+f;
-         }   
+         }
       if(f>=35400 && f<39000)
         {
            system("clear");
@@ -157,7 +158,7 @@ class Time
            d=39000-f;
            cout.flush();
            sleep(d);
-           f=f+d; 
+           f=f+d;
         }
       if(f>=39000 && f<42900)
         {
@@ -183,7 +184,7 @@ class Time
            d=46200-f;
            cout.flush();
            sleep(d);
-           f=f+d; 
+           f=f+d;
         }
       if(f>=46200 && f<52200)
         {
@@ -211,16 +212,16 @@ class Time
            d=59100-f;
            cout.flush();
            sleep(d);
-           
+
         }
-    
+
       else
         {
           system("clear");
           cout<<"\n\t\t\tCollege is Over!!\n";
         }
     }
-    
+
    void Time::day3()
    {
       if(f>=21600 && f< 31800)
@@ -232,7 +233,7 @@ class Time
           d=31800-f;
           cout.flush();
           sleep(d);
-          f=f+d; 
+          f=f+d;
         }
      if(f>=31800 && f<35400)
          {
@@ -248,7 +249,7 @@ class Time
            cout.flush();
            sleep(d);
            f=f+d;
-         }   
+         }
       if(f>=35400 && f<39000)
         {
             system("clear");
@@ -260,7 +261,7 @@ class Time
            d=39000-f;
            cout.flush();
            sleep(d);
-           f=f+d; 
+           f=f+d;
         }
       if(f>=39000 && f<42900)
         {
@@ -276,7 +277,7 @@ class Time
            f=d+f;
         }
       if(f>=42900 && f<46200)
-        { 
+        {
             system("clear");
            cout<<"\n\t\t\t___________THE SCHEDULER___________\n";
             cout<<"\n\tSemister:2";
@@ -287,7 +288,7 @@ class Time
            cout.flush();
            sleep(d);
            f=f+d;
-        
+
         }
       if(f>=46200 && f<52200)
         {
@@ -314,28 +315,28 @@ class Time
             cout<<"\n\t\t\tBatch: C5\n\t\t\tPractical: ENG LAB\n\t\t\tLab no: 010 \n\t\t\tName of Faculty: Prof. Jayshri Nalkar\n";
            d=59100-f;
            cout.flush();
-           sleep(d); 
+           sleep(d);
         }
-     
+
       else
         {
           system("clear");
           cout<<"\nCollege is Over!!\n";
         }
     }
-    
+
   void Time::day4()
    {
      if(f>=21600 && f< 31800)
         {
-          system("clear"); 
+          system("clear");
           cout<<"____________THE SCHEDULER___________\n";
           cout<<"\n!!!!***Good Morning***!!!!\n";
           cout<<"\t\t\tCollege is at 9:00 AM\n" ;
           d=31800-f;
           cout.flush();
           sleep(d);
-          f=f+d; 
+          f=f+d;
         }
     if(f>=31800 && f<35400)
          {
@@ -349,8 +350,8 @@ class Time
            cout.flush();
            sleep(d);
            f=f+d;
-        
-         }   
+
+         }
       if(f>=35400 && f<39000)
         {
            system("clear");
@@ -416,7 +417,7 @@ class Time
            d=55500-f;
            cout.flush();
            sleep(d);
-           f=f+d; 
+           f=f+d;
         }
       if(f>=55500 && f<59100)
         {
@@ -429,15 +430,15 @@ class Time
            d=59100-f;
            cout.flush();
            sleep(d);
-          
-        }  
+
+        }
       else
         {
           system("clear");
           cout<<"\nCollege is Over!!\n";
         }
    }
-   
+
   void Time::day5()
    {
       if(f>=21600 && f< 31800)
@@ -449,7 +450,7 @@ class Time
           d=31800-f;
           cout.flush();
           sleep(d);
-          f=f+d; 
+          f=f+d;
         }
       if(f>=31800 && f<39000)
          {
@@ -465,8 +466,8 @@ class Time
            cout.flush();
            sleep(d);
            f=f+d;
-         }   
-      
+         }
+
       if(f>=39000 && f<42900)
         {
             system("clear");
@@ -478,7 +479,7 @@ class Time
            d=42900-f;
            cout.flush();
            sleep(d);
-           f=f+d; 
+           f=f+d;
         }
       if(f>=42900 && f<46200)
         {
@@ -532,18 +533,18 @@ class Time
            d=59100-f;
            cout.flush();
            sleep(d);
-           
-        }  
+
+        }
       else
         {
           system("clear");
           cout<<"\nCollege is Over!!\n";
         }
- 
+
    }
-   
-   
-  int main() 
+
+
+  int main()
 {
     Start:
        Time t;
@@ -572,11 +573,10 @@ class Time
              break;
      case 5 :
              t.day5();
-             break;               
+             break;
      default :
               system("clear");
              cout<<"\nHoliday,Enjoy and Study Hard!!!\n";
-             break;                   
+             break;
    }
    }
-  
